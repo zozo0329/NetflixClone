@@ -1,0 +1,144 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.content {
+  background-image: url(images/netflix-background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo img {
+  height: 100px;
+  margin-left: 150px;
+}
+/*  */
+main {
+  display: flex;
+  justify-content: center;
+}
+.input-section {
+  padding: 70px;
+  background-color: #000000b2;
+  width: 20%;
+}
+.title h1 {
+  color: white;
+  font-family: Mulish;
+  font-weight: 750;
+  font-size: 40px;
+}
+.user-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.user-input input {
+  font-family: Mulish;
+  height: 50px;
+  background-color: #1b1b1bb2;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 5px;
+}
+#signin-btn {
+  background-color: #d80000;
+  padding: 11px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  transition: 0.24s;
+}
+#signin-btn:hover {
+  background-color: #b30000;
+}
+#use-a-code {
+  background-color: #3f3f3fb6;
+  padding: 11px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  transition: 0.24s;
+}
+#use-a-code:hover {
+  background-color: #313131b6;
+}
+.user-input p {
+  text-align: center;
+  color: white;
+}
+.user-input a {
+  text-decoration: none;
+  color: white;
+  transition: 0.24s;
+}
+
+.user-input a:hover {
+  text-decoration: underline;
+  color: #a7a7a7;
+}
+/*  */
+.reminder {
+  color: white;
+}
+.sign-up p {
+  color: #bbbbbb;
+}
+.sign-up a {
+  text-decoration: none;
+  color: white;
+}
+.sign-up a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.sign-up p,
+a {
+  font-size: 18px;
+}
+.notes {
+  font-size: 13px;
+}
+.notes a {
+  color: #0051ff;
+  font-size: 13px;
+}
+@media (max-width: 900px) {
+  .input-section {
+    width: 50%;
+  }
+  .logo img {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 1250px) {
+  .input-section {
+    width: 30%;
+  }
+  .logo img {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 800px) {
+  .input-section {
+    width: 50%;
+  }
+}
+@media (max-width: 850px) {
+  .input-section {
+    width: 50%;
+  }
+}
+@media (max-width: 375px) {
+  .input-section {
+    width: 50%;
+  }
+}
