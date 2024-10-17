@@ -1,14 +1,11 @@
 document
   .querySelector(".logo-section button")
   .addEventListener("click", function () {
-    document.querySelector(".tags h1").innerHTML = "TANGA DI PA TO TAPOS";
     let audio = new Audio("music/pou-sound-effect.mp3");
     audio.play();
   });
 
 document.querySelector(".tags button").addEventListener("click", function () {
-  document.querySelector(".tags h1").innerHTML =
-    "AY ANG KULIT NG GAGO, SABING DI PA NGA TO TAPOS";
   let audio = new Audio("music/pou-sound-effect.mp3");
   audio.play();
 });
