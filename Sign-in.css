@@ -1,6 +1,7 @@
 body {
   padding: 0px;
   margin: 0px;
+  background-color: black;
 }
 .content {
   background-image: url(images/netflix-background-image.jpg);
@@ -110,6 +111,39 @@ a {
   color: #0051ff;
   font-size: 13px;
 }
+/* FOOTER */
+footer {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  font-size: 16px;
+}
+footer {
+  padding: 50px;
+  margin-top: 300px;
+}
+footer p {
+  margin: 0px;
+  color: #cacaca;
+  cursor: pointer;
+}
+.question p {
+  margin-left: 110px;
+  margin-bottom: 40px;
+}
+.question p:hover {
+  text-decoration: underline;
+}
+.options-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.options-container p {
+  margin: 20px;
+  text-decoration: underline;
+}
+/* MQ FOR RESPONSIVE DESIGN */
 @media (max-width: 900px) {
   .input-section {
     width: 50%;
@@ -117,6 +151,21 @@ a {
   .logo img {
     display: flex;
     justify-content: center;
+  }
+  .options-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .question {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  .question p {
+    margin: 100px;
+    padding: 0px;
   }
 }
 @media (max-width: 1250px) {
@@ -127,19 +176,79 @@ a {
     display: flex;
     justify-content: center;
   }
+  .options-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .question {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  .question p {
+    margin: 100px;
+    padding: 0px;
+  }
 }
 @media (max-width: 800px) {
   .input-section {
     width: 50%;
+  }
+  .options-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .question {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  .question p {
+    margin: 100px;
+    padding: 0px;
   }
 }
 @media (max-width: 850px) {
   .input-section {
     width: 50%;
   }
+  .options-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .question {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  .question p {
+    margin: 100px;
+    padding: 0px;
+  }
 }
 @media (max-width: 375px) {
   .input-section {
     width: 50%;
+  }
+  .options-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .question {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  .question p {
+    margin: 100px;
+    padding: 0px;
   }
 }
