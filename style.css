@@ -164,6 +164,7 @@ header {
 .first-reminder button:hover {
   background-color: #d60000;
 }
+
 /* about */
 
 .about {
@@ -217,6 +218,43 @@ header {
     padding: 30px;
   }
   .about p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 600px) {
+  .reminder {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 400px) {
+  .reminder {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 375px) {
+  .tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tags h1 {
+    font-size: 40px;
+  }
+  .tags h3 {
+    font-size: 20px;
+  }
+  .tags button {
+    width: 60%;
+    font-size: 15px;
+  }
+  .icons {
+    gap: 40px;
+  }
+  .icons h1 {
     font-size: 13px;
   }
 }
