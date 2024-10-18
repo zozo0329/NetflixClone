@@ -258,6 +258,29 @@ header {
     font-size: 13px;
   }
 }
+@media (max-width: 400px) {
+  .tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tags h1 {
+    font-size: 40px;
+  }
+  .tags h3 {
+    font-size: 20px;
+  }
+  .tags button {
+    width: 60%;
+    font-size: 15px;
+  }
+  .icons {
+    gap: 40px;
+  }
+  .icons h1 {
+    font-size: 13px;
+  }
+}
 @media (max-width: 390px) {
   .tags {
     display: flex;
@@ -276,6 +299,32 @@ header {
   }
   .icons {
     gap: 40px;
+  }
+  .icons h1 {
+    font-size: 13px;
+  }
+}
+@media (max-width: 265px) {
+  .tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tags h1 {
+    font-size: 40px;
+  }
+  .tags h3 {
+    font-size: 20px;
+  }
+  .tags button {
+    width: 60%;
+    font-size: 15px;
+  }
+  .icons {
+    gap: 30px;
+  }
+  .icons i {
+    font-size: 50px;
   }
   .icons h1 {
     font-size: 13px;
