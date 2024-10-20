@@ -1,0 +1,124 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #e6e6e6;
+}
+.title {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  padding: 4px;
+}
+.title img {
+  margin-left: 50px;
+  height: 60px;
+}
+.title h1 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 20px;
+  border-left: 2px solid white;
+  transition: 0.24s;
+}
+.title a {
+  color: white;
+  text-decoration: none;
+}
+.title h1:hover {
+  text-decoration: underline;
+}
+/* dropdown */
+.content {
+  font-family: Montserrat;
+  display: flex;
+  padding: 40px;
+  border-bottom: 1px solid black;
+  margin: 0px 70px 0px 70px;
+}
+.current-viewing h1 {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.dropdown {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.24s;
+}
+.dropdown h1 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.dropdown i {
+  font-size: 17px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border-left: 1px solid black;
+  padding-left: 10px;
+}
+/* Dropdown options */
+.dropdown-container {
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+}
+.options {
+  transition: all 0.24s;
+  display: none;
+  position: absolute;
+  top: 166px;
+  overflow-y: scroll;
+  height: 30%;
+  width: auto;
+  border: 1px solid black;
+}
+.options ul {
+  background-color: #e6e6e6;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-top: 0px;
+}
+.options li {
+  display: block;
+  margin: 10px 5px 10px 5px;
+  font-weight: bold;
+  font-size: 20px;
+  list-style-type: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.options li:hover {
+  color: #f1c166;
+}
+/* first section */
+.first-section {
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat;
+  margin: 60px 70px 0px 70px;
+  padding: 50px 0px 0px 0px;
+}
+.title-message h1 {
+  font-size: 45px;
+  margin: 0px;
+}
+.first-section p {
+  margin: 30px 30px 0px 0px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.first-section a {
+  text-decoration: none;
+  color: red;
+  transition: all 0.24s;
+}
+.first-section a:hover {
+  text-decoration: underline;
+}
