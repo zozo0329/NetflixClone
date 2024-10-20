@@ -75,10 +75,6 @@ header {
   justify-content: center;
   align-items: center;
 }
-.icons h1:hover {
-  color: white;
-  cursor: pointer;
-}
 .door {
   text-align: center;
 }
@@ -86,7 +82,6 @@ header {
   color: #c2c2c2;
   font-size: 75px;
   cursor: pointer;
-  transition: 0.24s;
 }
 .door h1 {
   color: #c2c2c2;
@@ -100,7 +95,6 @@ header {
   color: #c2c2c2;
   font-size: 75px;
   cursor: pointer;
-  transition: 0.24s;
 }
 .phone h1 {
   color: #c2c2c2;
@@ -114,19 +108,35 @@ header {
   color: #c2c2c2;
   font-size: 75px;
   cursor: pointer;
-  transition: 0.24s;
 }
 .tag h1 {
   color: #c2c2c2;
   font-size: 20px;
 }
-.door i:hover {
+.door h1,
+i {
+  transition: all 0.24s;
+}
+.door:hover i {
   color: white;
 }
-.phone i:hover {
+.door:hover h1 {
   color: white;
 }
-.tag i:hover {
+.phone i,
+h1 {
+  transition: all 0.24s;
+}
+.phone:hover i,
+.phone:hover h1 {
+  color: white;
+}
+.tag i,
+h1 {
+  transition: all 0.24s;
+}
+.tag:hover i,
+.tag:hover h1 {
   color: white;
 }
 /* REMINDER BEFORE FOOTER */
