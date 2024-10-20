@@ -49,6 +49,7 @@ body {
   border: 1px solid black;
   cursor: pointer;
   transition: all 0.24s;
+  width: 200px;
 }
 .dropdown h1 {
   font-size: 20px;
@@ -74,8 +75,8 @@ body {
   top: 166px;
   overflow-y: scroll;
   height: 30%;
-  width: auto;
   border: 1px solid black;
+  width: 200px;
 }
 .options ul {
   background-color: #e6e6e6;
@@ -84,6 +85,7 @@ body {
   flex-direction: column;
   gap: 10px;
   border-top: 0px;
+  border-top: none;
 }
 .options li {
   display: block;
