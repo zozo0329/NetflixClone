@@ -272,6 +272,9 @@ footer {
     justify-content: center;
     align-items: center;
   }
+  .pricing-plan {
+    margin-bottom: 100px;
+  }
 }
 @media (max-width: 650px) {
   .content {
@@ -293,6 +296,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .pricing-plan {
+    margin-bottom: 100px;
   }
 }
 @media (max-width: 450px) {
@@ -335,6 +341,9 @@ footer {
   footer {
     height: 500px;
   }
+  .pricing-plan {
+    margin-bottom: 100px;
+  }
 }
 @media (max-width: 330px) {
   .first-section {
@@ -355,5 +364,8 @@ footer {
     text-align: start;
     font-size: 17px;
     font-weight: 550;
+  }
+  .pricing-plan {
+    margin-bottom: 100px;
   }
 }
