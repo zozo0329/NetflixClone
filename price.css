@@ -175,18 +175,85 @@ body {
   padding: 30px;
   border-radius: 18px;
 }
+/* 
+background: linear-gradient(10deg, rgba(229, 9, 20, 0) 58%, rgb(229, 9, 20) 128%), #000;
+*/
+/* FOOTER */
+footer {
+  font-family: Montserrat;
+  background: linear-gradient(
+      10deg,
+      rgba(229, 9, 20, 0) 58%,
+      rgb(229, 9, 20) 128%
+    ),
+    #000;
+  color: #e6e6e6;
+  height: 370px;
+}
+.contact-us {
+  border-bottom: 1px solid #b4b4b4;
+  margin: 0px 50px 0px 50px;
+}
+.CU-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 10px 50px 7px 0px;
+  margin: 0px 0px 19px 0px;
+}
+.contact-us h1 {
+  font-size: 23px;
+  font-weight: 650;
+  color: white;
+}
+.contact-us button {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 10px 33px 10px 33px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.24s;
+}
+.contact-us button:hover {
+  background-color: #a3a3a3;
+}
+.other-stuff ul {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 33px 10px 50px;
+  margin-top: 36px;
+  gap: 25px;
+}
+
+.other-stuff li {
+  list-style-type: none;
+}
+.other-stuff a {
+  text-decoration: none;
+  color: #a3a3a3;
+  font-size: 15px;
+  font-weight: 460;
+  transition: 0.24s;
+}
+.other-stuff a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 /* MQ FOR RESPONSIVE DESIGN */
 @media (max-width: 1250px) {
   .plan-container {
-    display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .plan {
+    width: 100%;
   }
   .plans-and-features {
     justify-content: center;
     align-items: center;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .plan-container {
     display: flex;
     flex-direction: column;
@@ -258,5 +325,35 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .CU-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  footer {
+    height: 500px;
+  }
+}
+@media (max-width: 330px) {
+  .first-section {
+    padding: 2px;
+    margin: 20px 35px 20px 35px;
+  }
+  .title-message h1 {
+    font-size: 28px;
+  }
+  .plans-and-features h1 {
+    font-size: 25px;
+  }
+  .plan h1 {
+    font-size: 30px;
+  }
+  .first-section p,
+  a {
+    text-align: start;
+    font-size: 17px;
+    font-weight: 550;
   }
 }
