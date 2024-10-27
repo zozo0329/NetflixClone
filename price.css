@@ -74,7 +74,7 @@ body {
   position: absolute;
   top: 166px;
   overflow-y: scroll;
-  height: 30%;
+  height: 40%;
   border: 1px solid black;
   width: 200px;
 }
@@ -300,6 +300,14 @@ footer {
   .pricing-plan {
     margin-bottom: 100px;
   }
+  .options {
+    top: 217px;
+  }
+}
+@media (max-width: 595px) {
+  .options {
+    top: 215px;
+  }
 }
 @media (max-width: 450px) {
   .title {
@@ -343,6 +351,9 @@ footer {
   }
   .pricing-plan {
     margin-bottom: 100px;
+  }
+  .options {
+    top: 231px;
   }
 }
 @media (max-width: 330px) {
