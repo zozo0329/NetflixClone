@@ -4,7 +4,8 @@ body {
   font-family: "Arial", sans-serif;
 }
 /* LOGO SECTION */
-header {
+
+.header-container {
   background-image: url(images/netflix-background-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,9 +17,11 @@ header {
   align-items: center;
   justify-content: flex-end;
   gap: 40%;
+  background-color: rgba(0, 0, 0, 0.548);
 }
 .logo-section img {
   height: 100px;
+  text-align: center;
 }
 .logo-section button {
   background-color: red;
@@ -30,6 +33,7 @@ header {
   border-radius: 8px;
   cursor: pointer;
   transition: 0.24s;
+  margin-right: 50px;
 }
 .logo-section button:hover {
   background-color: #df0202;
@@ -41,11 +45,14 @@ header {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  background-color: rgba(0, 0, 0, 0.548);
+  padding-bottom: 500px;
 }
 .tags h1 {
   margin: 0px;
-  font-size: 90px;
+  font-size: 80px;
   color: white;
+  font-weight: 670;
 }
 .tags h3 {
   margin: 0px;

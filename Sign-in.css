@@ -8,6 +8,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.logo {
+  background-color: #0000006c;
+}
 .logo img {
   height: 100px;
   margin-left: 150px;
@@ -16,6 +19,7 @@ body {
 main {
   display: flex;
   justify-content: center;
+  background-color: #0000006c;
 }
 .input-section {
   padding: 70px;
