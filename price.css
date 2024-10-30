@@ -53,6 +53,13 @@ body {
   padding: 11px 7px 11px 7px;
   margin-left: 15px;
 }
+#country option {
+  font-weight: bold;
+  font-size: 19px;
+  height: 100px;
+  background-color: #f1f1f1c0;
+}
+
 /* first section */
 .first-section {
   display: flex;
