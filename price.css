@@ -46,11 +46,11 @@ body {
   font-weight: bold;
 }
 #country {
-  font-size: 15px;
+  font-size: 17px;
   border-radius: 5px;
   border: 2px solid black;
   font-weight: bold;
-  padding: 9px 55px 9px 5px;
+  padding: 11px 7px 11px 7px;
   margin-left: 15px;
 }
 /* first section */
@@ -255,6 +255,13 @@ footer {
   }
   .options {
     top: 217px;
+  }
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
 }
 @media (max-width: 595px) {
