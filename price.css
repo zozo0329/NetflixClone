@@ -134,6 +134,19 @@ body {
   padding: 30px;
   border-radius: 18px;
 }
+/* ANIMATION FOR PLAN */
+.plan {
+  transition: 0.9s;
+}
+.plan:hover {
+  color: white;
+  background: linear-gradient(
+      10deg,
+      rgba(229, 9, 20, 0) 58%,
+      rgb(229, 9, 20) 128%
+    ),
+    #000;
+}
 /* 
 background: linear-gradient(10deg, rgba(229, 9, 20, 0) 58%, rgb(229, 9, 20) 128%), #000;
 */
